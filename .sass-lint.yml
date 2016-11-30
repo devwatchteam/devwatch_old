@@ -1,0 +1,95 @@
+options:
+  formatter: stylish
+files:
+  include: 'src/styles/**/*.s+(a|c)ss'
+  ignore: 'src/styles/utils/*.scss'
+rules:
+
+  # Line Spacing
+  one-declaration-per-line: 1
+  empty-line-between-blocks: 2
+  single-line-per-selector: 1
+
+  # Disallows
+  no-attribute-selectors: 0
+  no-color-hex: 0
+  no-color-keywords: 1
+  no-color-literals: 1
+  no-combinators: 0
+  no-css-comments: 0
+  no-debug: 1
+  no-disallowed-properties: 0
+  no-duplicate-properties:
+    - 2
+    -
+      exclude:
+        - content
+  no-empty-rulesets: 1
+  no-extends: 0
+  no-ids: 2
+  no-important: 2
+  no-invalid-hex: 1
+  no-mergeable-selectors: 1
+  no-misspelled-properties: 1
+  no-qualifying-elements: 1
+  no-trailing-whitespace: 1
+  no-trailing-zero: 2
+  no-transition-all: 2
+  no-universal-selectors: 0
+  no-url-protocols: 0
+  no-vendor-prefixes: 1
+  no-warn: 1
+  property-units:
+    - 2
+    - global: ['em', 'rem', 'vw', 'vh', '%', 's', 'ms']
+
+  # Nesting
+  force-attribute-nesting: 0
+  force-element-nesting: 0
+  force-pseudo-nesting: 0
+
+  # Name Formats
+  class-name-format:
+    - 2
+    - convention: hyphenatedlowercase
+  function-name-format: 1
+  id-name-format: 0
+  mixin-name-format: 0
+  placeholder-name-format: 1
+  variable-name-format: 0
+
+  # Style Guide
+  attribute-quotes: 1
+  bem-depth: 0
+  border-zero: 1
+  brace-style:
+    - 1
+    - allow-single-line: true
+  clean-import-paths: 0
+  empty-args: 1
+  hex-length: 1
+  hex-notation: 1
+  indentation: 2
+  leading-zero: 0
+  nesting-depth: 2
+  property-sort-order: 2
+  pseudo-element: 2
+  quotes: 2
+  shorthand-values: 1
+  url-quotes: 1
+  variable-for-property: 1
+  zero-unit: 1
+
+  # Inner Spacing
+  space-after-comma: 0
+  space-before-colon: 0
+  space-after-colon: 2
+  space-before-brace: 2
+  space-before-bang: 1
+  space-after-bang: 1
+  space-between-parens: 1
+  space-around-operator: 2
+
+  # Final Items
+  trailing-semicolon: 2
+  final-newline: 2
