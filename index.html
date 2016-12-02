@@ -4,21 +4,23 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <!-- <h1 class="page-heading">Posts</h1> -->
 
   <ul class="post-list">
     {% for post in site.posts %}
       <li class="post-list-li">
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2 class="post-list-h2">
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        <div class="post-first-content">
-          {{ post.content }}
+        <div class="post-preview">
+          <h2 class="post-list-h2">
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+          <div class="post-first-content">
+            {{ post.content }}
+          </div>
         </div>
-        {% if post.author %}<p> By {{ post.author }}</p>{% endif %}
-        <p>{{ post.categories }}</p>
+        <!-- {% if post.author %}<p class="post-author-preview"> By {{ post.author }}</p>{% endif %} -->
+        <p class="post-tags-preview">{{ post.categories }}</p>
+        <a href="{{ post.url | prepend: site.baseurl }}">Read More</a>
       </li>
     {% endfor %}
   </ul>
