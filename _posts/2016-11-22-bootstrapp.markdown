@@ -3,7 +3,9 @@ author: "@Dave_Conner"
 layout: post
 title:  "BootstrApp!"
 date:   2016-11-22 19:50:21 -0600
-categories: PWA web apps
+categories: html
+tags: PWA web apps
+comments: true
 ---
 
 

@@ -3,7 +3,9 @@ author: "David Conner"
 layout: post
 title:  "BootstrApp!"
 date:   2016-11-22 19:50:21 -0600
-categories: PWA web apps
+categories: javascript
+tags: jekyll
+comments: true
 ---
 
 

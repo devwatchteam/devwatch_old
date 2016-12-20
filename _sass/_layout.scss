@@ -40,23 +40,10 @@ svg {
   &-choice {
     display: block;
     font-size: 0.75rem;
-    left: 90px;
-    position: absolute;
-    top: 20px;
-    width: 206px;
+    margin-bottom: 2.25em;
 
     @include bp(600) {
-      left: 105px;
-      top: 30px;
-    }
-
-    @include bp(700) {
-      left: 122px;
-    }
-
-    @include bp(1024) {
-      left: 150px;
-      top: 93px;
+      margin-bottom: 3em;
     }
 
     .site-nav-li {
@@ -97,7 +84,7 @@ svg {
   &-link {
     border-bottom: 1px solid $gray;
     border-right: 4px solid transparent;
-    color: #333;
+    color: $black;
     display: block;
     padding: 1em .5em;
 
@@ -134,7 +121,7 @@ svg {
 // }
 //
 .site-title {
-  color: #A3D8C8;
+  color: $green;
   font-size: 1.5em;
   font-weight: 900;
   line-height: 1;
@@ -160,7 +147,7 @@ svg {
     }
 
     &:visited {
-        color: #A3D8C8;
+        color: $green;
     }
 }
 //
@@ -390,11 +377,12 @@ svg {
 
 .page-content {
   min-height: calc(100% - 43px);
-  padding: 5.1em 0 1.5em 4.56em; //1.5em 0 1.5em 4.56em;
+  padding: 1.2em 0 1.5em 4.56em; //1.5em 0 1.5em 4.56em;
   width: 100%;
 
   @include bp(600) {
-    padding: 6.5em 0 1em 5.56em;
+    //padding: 6.5em 0 1em 5.56em;
+    padding: 2em 0 1em 5.56em;
   }
 
   @include bp(1024) {
@@ -505,7 +493,7 @@ svg {
   display: inline-block;
   padding: .1em .65em;
   color: $white;
-  background: #88C2C9;
+  background: $green;
   border-radius: 2px;
   letter-spacing: .35px;
 }

@@ -6,12 +6,12 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: DW<span>devwatch</span>
-email: your-email@domain.com
+title: DevWatch
+email: devwatchhelp@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   A site devoted to spreading knowledge.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://devwatch.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
