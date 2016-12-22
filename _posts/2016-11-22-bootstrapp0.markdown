@@ -4,7 +4,7 @@ layout: post
 title:  "BootstrApp!"
 date:   2016-11-22 19:50:21 -0600
 categories: javascript
-tags: jekyll
+tags: tutorial jekyll
 comments: true
 ---
 

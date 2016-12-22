@@ -7,10 +7,13 @@ layout: default
   <!-- <h1 class="page-heading">Posts</h1> -->
   <ul class="site-nav-choice">
     <li class="site-nav-li">
-      <a class="site-nav-link site-nav-link_active">Articles</a>
+      <a class="site-nav-link site-nav-link_active"  data-page="all">All</a>
     </li>
     <li class="site-nav-li">
-      <a class="site-nav-link">Tutorials</a>
+      <a class="site-nav-link" data-page="articles">Articles</a>
+    </li>
+    <li class="site-nav-li">
+      <a class="site-nav-link" data-page="tutorials">Tutorials</a>
     </li>
   </ul>
 
@@ -32,6 +35,7 @@ layout: default
       </li>
     {% endfor %}
   </ul>
+  <div id="ajax"></div>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
