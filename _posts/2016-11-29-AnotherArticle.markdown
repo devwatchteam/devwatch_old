@@ -1,5 +1,5 @@
 ---
-author: "David Conner"
+author: "@Dave_Conner"
 layout: post
 title:  "Another Article talking about stuff because of reasons"
 date:   2016-11-29 11:50:21 -0600
