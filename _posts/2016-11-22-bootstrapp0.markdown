@@ -6,6 +6,7 @@ date:   2016-11-22 19:50:21 -0600
 categories: javascript
 tags: tutorial jekyll
 comments: true
+permalink: /categories/:categories/:year/:month/:day/:title/
 ---
 
 

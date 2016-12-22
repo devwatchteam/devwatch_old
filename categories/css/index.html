@@ -18,13 +18,11 @@ layout: default
   </ul>
 
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in site.categories.css %}
       {% if post.tags contains "tutorial" %}
-      <li class="post-list-li tuts">
-      {% elsif post.tags contains "article"%}
-      <li class="post-list-li arts">
+        <li class="post-list-li tuts">
       {% else %}
-      <li class="post-list-li">
+        <li class="post-list-li">
       {% endif %}
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         <div class="post-preview">
