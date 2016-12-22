@@ -1,5 +1,5 @@
 ---
-author: "David Conner"
+author: "@Dave_Conner"
 layout: post
 title:  "Why you should never do this thing"
 date:   2016-11-29 11:50:21 -0600

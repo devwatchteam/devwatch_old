@@ -517,6 +517,32 @@ svg {
   margin-left: 1em;
 }
 
+
+//Post styles
+.post {
+  & > * {
+      margin-bottom: 1.5em;
+  }
+
+  &-share {
+    margin-bottom: 1.5em;
+
+    & > * {
+        display: inline-block;
+        vertical-align: top;
+
+        & + * { margin-left: .45em;}
+    }
+
+    .fb_iframe_widget span { vertical-align: top !important; }
+
+  }
+}
+
+
+
+
+
 .site-footer {
   background: rgba(0, 0, 0, .05);
   padding-left: 4.56em;

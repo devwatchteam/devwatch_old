@@ -1,5 +1,5 @@
 ---
-author: "David Conner"
+author: "@Dave_Conner"
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2016-11-22 19:50:21 -0600
