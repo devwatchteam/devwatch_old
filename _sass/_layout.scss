@@ -386,7 +386,7 @@ svg {
   }
 
   @include bp(1024) {
-    padding: 9em 0 1em 5.56em;
+    padding: 5.8em 0 1em 5.56em;//9em 0 1em 5.56em;
   }
 
 }
@@ -396,6 +396,11 @@ svg {
 
   @include bp(1120) {
     max-width: 900px;
+  }
+
+  &-header {
+    position: relative;
+    transform: translateY(-7px);
   }
 }
 
@@ -454,7 +459,7 @@ svg {
 
     @include bp(700) {
       display: inline-block;
-      margin: 1em 0;
+      margin: 2em 0;
       padding-right: 2em;
       vertical-align: top;
       width: 49%;
@@ -477,7 +482,12 @@ svg {
       padding-right: 4em;
     }
   }
+
+
 }
+
+.filter-tuts .arts,
+.filter-arts .tuts { display: none; }
 
 .post-first-content {
   h2 { display: none; }
