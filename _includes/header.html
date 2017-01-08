@@ -24,7 +24,7 @@
           <a class="site-nav-link">Categories:</a>
           <ul class="cats">
         		{% for cat in site.categories %}
-              <li class="site-nav-li"><a class="site-nav-link" href="/categories/{{ cat[0] }}">{{ cat[0] }}</a></li>
+              <li class="site-nav-li"><a class="site-nav-link {{ cat[0] }}" href="/categories/{{ cat[0] }}">{{ cat[0] }}</a></li>
             {% endfor %}
         	</ul>
         </li>

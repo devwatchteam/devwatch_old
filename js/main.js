@@ -55,4 +55,35 @@
     $('.site-nav-choice', false).style.display = "none";
   }
 
+  const navLinks = $('.cats .site-nav-link');
+  const currentLocation = $doc.location.pathname.split("/");
+  switch (currentLocation[currentLocation.length - 2]) {
+    case 'html':
+    $('.html', false).classList.add('site-nav-link_active');
+    break;
+    case 'javascript':
+    $('.javascript', false).classList.add('site-nav-link_active');
+    break;
+    case 'web-design':
+    $('.web-design', false).classList.add('site-nav-link_active');
+    break;
+    case 'css':
+    $('.css', false).classList.add('site-nav-link_active');
+    break;
+    case 'sass':
+    $('.sass', false).classList.add('site-nav-link_active');
+    break;
+    default:
+    console.log("home is where the heart is.");
+  }
+
+  // navLinks.map(link => {
+  //   link.addEventListener('click', () => {
+  //     navLinks.map(navLink => {
+  //       navLink.classList.remove('site-nav-link_active');
+  //     });
+  //     //.classList.add('site-nav-link_active');
+  //   });
+  // });
+
 })(window, document);

@@ -9,11 +9,11 @@
 title: DevWatch
 email: devwatchhelp@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  A site devoted to spreading knowledge.
+  A blog about modern front-end development.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://devwatch.io" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: devwatch_io
+github_username:  devwatchteam
 
 # Build settings
 markdown: kramdown
